@@ -95,3 +95,28 @@ for (let i = 1; i < 10; i++) {
     console.log(i);
 }
 
+
+function calc(g, h) {
+    return(g + h);
+}
+
+console.log(calc(5, 4));
+
+let calcSecond = function(a, b) {
+    return(a * b);
+};
+
+console.log(calcSecond(4, 7));
+
+const logg = "How are you?";
+
+console.log(logg.slice(5, 11));
+
+console.log(logg.substring(5, 11));
+
+const num = 12.2;
+console.log(Math.round(num)); // округляет число
+
+const test = "12.2px";
+console.log(parseInt(test)); // возвращает число из строки с округлением
+console.log(parseFloat(test)); // возвращает число из строки
